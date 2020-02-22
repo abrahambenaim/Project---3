@@ -14,7 +14,12 @@
     <link rel="stylesheet" href="css/owl.theme.default.min.css">
     <link rel="stylesheet" href="css/bootstrap-datepicker.css">
 
-    
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.3/dist/leaflet.css"
+    integrity="sha512-Rksm5RenBEKSKFjgI3a41vrjkw4EVPlJ3+OiI65vTjIdo9brlAacEuKOiQ5OFh7cOI1bkDwLqdLw3Zg0cRJAAQ=="
+    crossorigin=""/>
+    <script src="https://unpkg.com/leaflet@1.3.3/dist/leaflet.js"
+    integrity="sha512-tAGcCfR4Sc5ZP5ZoVz0quoZDYX5aCtEm/eu1KhSLj2c9eFrylXZknQYmxUssFaVJKvvc0dJQixhGjG2yXWiV9Q=="
+    crossorigin=""></script>
     
     <link rel="stylesheet" href="fonts/flaticon/font/flaticon.css">
   
@@ -285,8 +290,7 @@
         
       </div>
     </div>
-    
-    
+    <div class = "site-section" id="map"></div>
     <div class="site-section" id="our-team-section">
       <div class="container">
         <div class="row justify-content-center">
@@ -376,11 +380,11 @@
             <div class="border p-5 text-center rounded">
               <h3>Visa requirements</h3>
 
-                <li>Official USA Gov. Site</li>
+                <li>CIBT Visas</li>
 
 
 
-              <p><a href="https://kayak.com" class="btn btn-lg btn-primary rounded-0 btn-block">Take me there</a></p>
+              <p><a href="https://cibtvisas.com/" class="btn btn-lg btn-primary rounded-0 btn-block">Take me there</a></p>
             </div>
           </div>
           <br>
@@ -388,11 +392,11 @@
             <div class="border p-5 text-center rounded">
               <h3>Travel Advisory</h3>
 
-                <li>Offical USA Travel</li>
+                <li>US Department of State</li>
 
 
 
-              <p><a href="https://kayak.com" class="btn btn-lg btn-primary rounded-0 btn-block">Take me there</a></p>
+              <p><a href="https://travel.state.gov/content/travel/en/traveladvisories/traveladvisories.html/" class="btn btn-lg btn-primary rounded-0 btn-block">Take me there</a></p>
             </div>
           </div>
 
@@ -503,6 +507,8 @@
   <script src="js/jquery.fancybox.min.js"></script>
   <script src="js/main.js"></script>
   <script src="js/airport.js"></script>
+  <script type="text/javascript" src="config.js"></script>
+  <script type="text/javascript" src="logic.js"></script>
 
   
   </body>
